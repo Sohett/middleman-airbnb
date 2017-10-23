@@ -1,0 +1,22 @@
+# data/flats.yml
+Sohett:
+  name: "Thomas's home"
+  description: "Charming room in Ixelles"
+  city_name: "Brxuxelles, Belgium"
+  city_slug: "amsterdam"
+  wifi: false
+  rating: 4
+VKAlex95:
+  name: "Alex' home"
+  description: Small flat in Tokyo
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: true
+  rating: 3
+pierrecollinet:
+  name: Pierre's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
