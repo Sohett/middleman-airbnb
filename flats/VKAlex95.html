@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Team Page - Middleman Le Wagon</title>
-    <link href="stylesheets/application-f3d94242.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-f3d94242.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -40,33 +40,19 @@
 </div>
 
 
-    <div id="team">
-  <div class="team-content">
-    <h1>The team of our amazing project</h1>
+    
+<!-- source/flats/show.html.erb -->
 
-    <ul class="list-inline text-center">
-        <li>
-          <img src="https://kitt.lewagon.com/placeholder/users/VKAlex95" class="img-circle" alt="Vkalex95" />
-          <h3>Alexandre vacca</h3>
-          <p> <a href="https://kitt.lewagon.com/alumni/VKAlex95" target="blanck">Le Wagon Profile</a> </p>
-        </li>
-        <li>
-          <img src="https://kitt.lewagon.com/placeholder/users/carmenlongo" class="img-circle" alt="Carmenlongo" />
-          <h3>Carmen longo</h3>
-          <p> <a href="https://kitt.lewagon.com/alumni/carmenlongo" target="blanck">Le Wagon Profile</a> </p>
-        </li>
-        <li>
-          <img src="https://kitt.lewagon.com/placeholder/users/pierrecollinet" class="img-circle" alt="Pierrecollinet" />
-          <h3>Pierre collinet</h3>
-          <p> <a href="https://kitt.lewagon.com/alumni/pierrecollinet" target="blanck">Le Wagon Profile</a> </p>
-        </li>
-        <li>
-          <img src="https://kitt.lewagon.com/placeholder/users/Sohett" class="img-circle" alt="Sohett" />
-          <h3>Thomas sohet</h3>
-          <p> <a href="https://kitt.lewagon.com/alumni/Sohett" target="blanck">Le Wagon Profile</a> </p>
-        </li>
-    </ul>
+<!-- Access data.flats with owner's name as key -->
 
+<!-- Inject flat data in template -->
+<div class="wraper show-flats">
+  <div class="container">
+    <img src="https://kitt.lewagon.com/placeholder/users/VKAlex95" class="img-circle profile-picture" width="200" alt="Vkalex95" />
+    <p>Alex' home</p>
+    <img src="https://kitt.lewagon.com/placeholder/cities/paris" width="600" alt="Paris" />
+    <h1>Small flat in Paris</h1>
+    <p>Paris, France</p>
   </div>
 </div>
 
