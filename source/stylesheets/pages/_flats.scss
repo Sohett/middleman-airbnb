@@ -1,3 +1,21 @@
 .flats {
   margin: 30px 0px;
 }
+
+
+.show-flats {
+  background-color: darken($light-gray, 20%);
+  text-align: center;
+  p {
+    margin-bottom: 20px;
+    margin-top: 1.5em;
+  }
+
+  img {
+  box-shadow: 1px 1px 20px darken($light-gray, 50%);
+}
+}
+
+.profile-picture {
+  margin: 20px 0;
+}

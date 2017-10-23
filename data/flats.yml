@@ -1,14 +1,14 @@
 # data/flats.yml
 Sohett:
   name: "Thomas's home"
-  description: "Charming room in Ixelles"
-  city_name: "Brxuxelles, Belgium"
+  description: "Charming room in Amsterdam near the center"
+  city_name: "Amsterdam, The Nederlands"
   city_slug: "amsterdam"
   wifi: false
   rating: 4
 VKAlex95:
   name: "Alex' home"
-  description: Small flat in Tokyo
+  description: Small flat in Paris
   city_name: "Paris, France"
   city_slug: "paris"
   wifi: true
@@ -20,3 +20,17 @@ pierrecollinet:
   city_slug: "london"
   wifi: true
   rating: 5
+theodorewillems:
+  name: "Theodore's home"
+  description: "Charming room in Tokyo near the center"
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: false
+  rating: 4
+astrid:
+  name: "Astrid's home"
+  description: "Charming room in Rio near the center"
+  city_name: "Rio, Brasil"
+  city_slug: "rio"
+  wifi: false
+  rating: 4
